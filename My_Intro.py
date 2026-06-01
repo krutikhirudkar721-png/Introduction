@@ -7,7 +7,7 @@
     role2 = "AI Systems Architect"
     vision = "Building self-healing AI systems using logic and math"
     philosophy = "Logical architecture is more important than prompt engineering"
-     music = "Synthwave"
+    music = "Synthwave"
     food = "Pizza"
 
     print("* Personal Information *")
