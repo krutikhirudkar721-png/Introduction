@@ -1,4 +1,5 @@
 # In Python 
+
     name = "Krutik Hirudkar"
     age = 20
     nationality = "Indian"
