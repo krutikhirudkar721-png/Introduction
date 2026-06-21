@@ -1,4 +1,4 @@
-import customtkinter as ctk
+import customtkinter as ctks
 
 # -----------------------------
 # Personal Information
