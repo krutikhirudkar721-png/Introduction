@@ -29,6 +29,7 @@ app.configure(fg_color="#F5F5F0")
 # -----------------------------
 # Grid Layout
 # -----------------------------
+
 for i in range(6):
     app.grid_columnconfigure(i, weight=1)
 
