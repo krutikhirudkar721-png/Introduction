@@ -3,6 +3,7 @@ import tkinter as tk
 # -----------------------------
 # Personal Information
 # -----------------------------
+
 name = "Krutik Hirudkar"
 age = 20
 role1 = "Engineer"
@@ -15,6 +16,7 @@ food = "Pizza"
 # -----------------------------
 # App Setup
 # -----------------------------
+
 app = tk.Tk()
 app.title("Krutik Hirudkar | Architect of Resilience")
 app.geometry("1200x750")
@@ -30,12 +32,14 @@ for i in range(4):
 # -----------------------------
 # Helper Function
 # -----------------------------
+
 def card(parent, bg):
     return tk.Frame(parent, bg=bg, bd=2, relief="ridge")
 
 # -----------------------------
 # Hero Card
 # -----------------------------
+
 hero = card(app, "white")
 hero.grid(row=0, column=0, columnspan=4, rowspan=2,
           padx=10, pady=10, sticky="nsew")
@@ -61,6 +65,7 @@ tk.Label(hero,
 # -----------------------------
 # Age Card
 # -----------------------------
+
 age_card = card(app, "#8B5CF6")
 age_card.grid(row=0, column=4, columnspan=2,
               padx=10, pady=10, sticky="nsew")
@@ -80,6 +85,7 @@ tk.Label(age_card,
 # -----------------------------
 # Vision Card
 # -----------------------------
+
 vision_card = card(app, "white")
 vision_card.grid(row=2, column=0, columnspan=3,
                  padx=10, pady=10, sticky="nsew")
@@ -99,6 +105,7 @@ tk.Label(vision_card,
 # -----------------------------
 # Philosophy Card
 # -----------------------------
+
 philosophy_card = card(app, "white")
 philosophy_card.grid(row=2, column=3, columnspan=3,
                      padx=10, pady=10, sticky="nsew")
