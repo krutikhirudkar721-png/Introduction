@@ -125,6 +125,7 @@ tk.Label(philosophy_card,
 # -----------------------------
 # Music Card
 # -----------------------------
+
 music_card = card(app, "white")
 music_card.grid(row=3, column=0, columnspan=2,
                 padx=10, pady=10, sticky="nsew")
@@ -142,6 +143,7 @@ tk.Label(music_card,
 # -----------------------------
 # Food Card
 # -----------------------------
+
 food_card = card(app, "#FFF4E8")
 food_card.grid(row=3, column=2, columnspan=2,
                padx=10, pady=10, sticky="nsew")
@@ -159,6 +161,7 @@ tk.Label(food_card,
 # -----------------------------
 # Roles Card
 # -----------------------------
+
 roles_card = card(app, "white")
 roles_card.grid(row=3, column=4, columnspan=2,
                 padx=10, pady=10, sticky="nsew")
@@ -177,4 +180,5 @@ tk.Label(roles_card,
 # -----------------------------
 # Run
 # -----------------------------
+
 app.mainloop()
