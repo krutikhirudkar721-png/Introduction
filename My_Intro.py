@@ -3,7 +3,6 @@ import tkinter as tk
 # -----------------------------
 # Personal Information
 # -----------------------------
-
 name = "Krutik Hirudkar"
 age = 20
 role1 = "Engineer"
