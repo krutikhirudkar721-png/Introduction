@@ -165,7 +165,6 @@ tk.Label(food_card,
 roles_card = card(app, "white")
 roles_card.grid(row=3, column=4, columnspan=2,
                 padx=10, pady=10, sticky="nsew")
-
 tk.Label(roles_card,
          text="ROLES",
          bg="white",
