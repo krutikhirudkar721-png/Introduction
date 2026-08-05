@@ -1,5 +1,4 @@
 import tkinter as tk
-
 # -----------------------------
 # Personal Information
 # -----------------------------
